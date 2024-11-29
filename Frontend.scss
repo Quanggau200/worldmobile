@@ -1,0 +1,110 @@
+@import "Fontfamily.css";
+.header
+{
+    box-sizing: border-box;
+    height: 100%;
+    position: sticky;
+
+    background-color: white; 
+
+    .col-lg-5
+    {
+        font-size: 30px;
+        padding:10px 3.6rem;
+        line-height: 100%;
+
+    }
+    .col-lg-7
+    {
+        text-align: right;
+        padding: 12px 24px;
+        line-height: 100%;
+    }
+    span
+    {
+        color: black;
+       
+
+    }
+}
+.col-lg-7 span:hover
+{
+    background-color: white;
+    color: blue;
+}
+.img-medicine img {
+    width: 100%;
+    height: auto; /* Đảm bảo ảnh không bị co dọc */
+}
+
+.img-medicine
+{
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out 2s forwards;
+
+}
+.col-lg-6
+{
+    .slider_about
+    {
+        border-radius: 10px;
+        border: 0.5px solid blue;
+        color: rgb(201, 201, 205);
+        width: 20%;
+        text-align: center;
+        margin: 12px 0;
+        font-size: 12px;
+        padding: 5px 0;
+    }
+}
+
+.slider_text
+{
+    color: black;
+    font-size: 40px;
+
+
+}
+.slider_note
+{
+font-size: 16px;
+color: #6c757d;
+
+}
+
+.slider_icon h5
+{
+    font-size: 18px;
+    color: #6c757d;
+    margin: 20px 0 ;
+}
+
+
+.slider_note_2
+    {   
+
+        color: #6c757d;
+    }
+.service
+{
+    width: 10em;
+    border-radius: 20px;
+    border: 0.5px solid blue;
+    text-align: center;
+    padding: 12px 12px;
+    color:#6c757d ;
+}
+.mb-4
+{
+    font-size: 18px;
+    color:#6c757d ;
+
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1; 
+    }
+}
