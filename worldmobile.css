@@ -1,0 +1,427 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  
+}
+body
+{
+    min-width: 1024px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+.header__logo
+{
+    position:relative;
+    z-index: 2;
+}
+.header__logo img
+{
+    z-index: 3;
+    
+
+}
+
+.header_worldmobile
+{
+    background-color: #ffd400;
+    width: 100%;
+    
+}
+.header_worldmobile .header__top>div
+{
+    display: inline-flex;
+    align-items: center;
+}
+.header_worldmobile .header__top
+{
+    display: flex;
+    margin: auto;
+    width: 1200px;
+}
+.header_worldmobile .logoicon
+{
+    
+    display: inline-block;
+    line-height: 30px;
+    background-position: unset;
+    
+
+}
+ .header__top
+{
+   padding: 10px 0 0;
+   width: 100%;
+   height: 100%;
+}
+.header__search
+{
+    position: relative;
+}
+.item_search
+{
+    
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    height: 17px;
+    width: 17px;
+    border: none;
+    background-color: white;
+    margin-left: 10px;
+    color: gray;
+    
+    
+}
+.header_worldmobile>.header__top>div>.header__search>.input_search
+{
+    border-radius: 32px;
+    margin-top: 5px;
+    margin-left: 30px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 40px;     
+    width: 364px;
+    height: 24px;
+    position: relative;
+  
+    
+}
+.profile,.box-cart
+{
+    line-height: 30px;
+    height: 42px;
+    width: 104px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.name_order
+{
+    line-height: 56px;
+}
+
+.cart_number
+{
+    line-height: 56px;
+}
+.header__address
+{
+    width: 300px;
+    background-color: #ffe14c;
+    border-radius: 32px;
+    display: flex;
+    height: 24px;
+    font-weight: normal;
+    position: relative;
+    align-items: center;
+    padding: 10px 10px;
+    z-index: 2;
+    margin-top: 5px;
+}
+.header__address i
+{
+  
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    height: 17px;
+    width: 17px;
+   
+
+}
+.header__address span
+{
+    padding: 13px 10px 7px 10px;
+    margin-left: 20px;
+    line-height: 21px;
+}
+.main_menu 
+{
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+    margin: 10px 0 ;
+    list-style-type: none;
+    padding: 0 20px;
+}
+.main_menu li i img
+{
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+
+}
+
+.header__main>div
+{
+    max-width: 1220px;
+    width: 100%;
+    margin: auto;
+    padding: 0 0 10px;
+    
+
+
+}
+.main_menu li
+{
+    padding: 10px;
+    cursor: pointer;
+   
+}
+.main_menu li span
+{
+    font-size: 14px;
+    
+}
+
+
+
+.itempc
+{
+    position: absolute;
+    background-color: white;   
+    display: flex;
+}
+
+.item-menu
+{
+    position: relative;
+    display: flex;
+
+}
+.itempc>.item-menu>a>img
+{
+    height: 48px;
+    width: 48px;
+    
+}
+.itempc>.item-menu>a>h3
+{
+    font-size: 12px;
+}
+.main_menu>li:hover
+{
+    background-color: rgb(226, 208, 208);
+    color: black;
+    border-top-left-radius: 5px;  
+    border-top-right-radius: 5px; 
+   
+}
+.main_menu > li.has-item:hover .item-menu {
+    flex-wrap: wrap;
+    display: inline-flex;  /* Hoặc display: inline-flex nếu muốn các item hiển thị theo dạng dòng ngang */
+}
+.body_home
+{
+    padding: 10px 0;
+    background-color: rgb(240, 240, 240);
+ 
+
+}
+.main_container
+{
+    margin:0 auto ;
+    width: 1200px;
+   
+}
+.home_product
+{   
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+}
+
+.home_product>img
+{
+   height: 40px;
+   width: 40px;
+   background-size: 100%;
+}
+.home_product>span
+{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    color:#1d2939;
+    padding-left: 15px;
+}
+.hot_product img
+{ 
+    
+    height: 69px;
+    width: 229px;
+    background-color: red;
+}
+.product_tab
+{
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    max-width: 1200px;
+    height: 60px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    
+
+    
+    
+}
+.product_tab img
+{
+    max-height: 44px;
+    min-width: 90%;
+    
+}
+  
+.product_tab li 
+{
+    height: 58px;
+    width: 141px;
+    line-height: 44px;
+    padding: 10px 16px;
+    
+
+}
+.space
+{
+    max-width: 1200px;
+    height: 20px;
+    background-color: white;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    
+}
+.space>div
+{
+    max-width: 1200px;
+    height: 1px;
+    background-color:rgb(226, 208, 208);
+    padding-top: 0.5px
+}
+.daily
+{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 16px;
+}
+.block-product
+{
+    display: flex;
+}
+.block-product img
+{
+    height: 40px;
+    width: 40px;
+}
+.block-product h3
+{
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.list-product
+{
+    padding: 0 20px 15px 20px;
+} 
+.list-product-item
+{
+    display: flex;
+    list-style-type: none;  
+    grid-template-columns:repeat(6,minmax(0,1fr));
+    gap: 10px;
+}
+
+.list-product img
+{
+
+    max-height: 95%;
+}
+.item-lable
+{
+    height: 23px;
+   
+}
+.item
+{
+    border: 1px solid rgb(219, 215, 215);
+    border-radius: 8px;
+    padding: 10px 8px 10px 10px;
+}
+.item-img
+{
+    height: 163px;
+    width: 163px;
+    margin: 0 auto;
+    position: relative;
+
+    
+}
+
+.item p
+{
+    background:linear-gradient(to right,#af63cf,#3327a7);
+    border-radius: 20px;
+    display: inline-flex;
+    max-width: 100%;
+    padding-right: 8px;
+}
+.item span
+{
+    font-size: 10px;
+    line-height: 20px;
+    color: white;
+    margin-left: 1px;
+    padding-left: 3px;
+}
+.item .text 
+{
+    color: #1d2939;
+    font-size: 14px;
+}
+.item-compare span
+{
+    color: #333;
+    line-height: 12px;
+    background-color: #eaebec;
+    padding: 2px 3px;
+}
+.price
+{
+    margin-bottom: 8px;
+}
+.rating i
+{
+    color: rgb(245, 245, 143);
+    height: 14px;
+    width: 14px;
+}
+.rating b
+{
+    font-size: 12px;
+    color: #667085;
+    font-weight: normal;
+    margin-left: 2px;
+}
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    overflow-x: hidden; 
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+
+    .header_worldmobile .header__top {
+        flex-direction: column;
+    }
+}
