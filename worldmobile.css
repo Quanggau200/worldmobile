@@ -19,7 +19,8 @@ body
 .header__logo img
 {
     z-index: 3;
-    
+    border: none;
+    background-color: #ffd400;
 
 }
 
@@ -337,12 +338,14 @@ body
 .space
 {
     max-width: 1200px;
-    height: 20px;
+    height: 100px;
     background-color: white;
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
+    height: 20px;
     
 }
+
 .space>div
 {
     max-width: 1200px;
@@ -471,5 +474,47 @@ html, body {
     .main_container img[src="assets/images/label-right.png"] {
         display: none; 
 }
+    .header__left img[src="assets/images/header-left.png"],
+    .header__right img[src="assets/images/header-right.png"]
+    {
+        display: none;  
+    }
+
 }
 
+
+.slider
+{
+    width: 100%;    
+max-width: 100%;
+margin-top: 10px;
+    
+}
+.slider_bar
+{
+
+    width: 340px;
+    height: 40px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd400;
+    border-radius: 15px;
+
+}
+.slider_bar span
+{
+    color:  white;
+    line-height: 40px;
+    font-size: 20px;
+    
+}
+.slider_bar span label
+{
+    background-color:white;
+    color: #ffd400;;
+    font-size: 20px;
+    padding: 2px 2px;
+    border-radius: 10px;
+}

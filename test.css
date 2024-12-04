@@ -12,7 +12,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;  /* Chia các phần tử theo chiều dọc */
-    font-family: Arial, sans-serif;
+
 }
 
 .header {
@@ -21,18 +21,30 @@ body {
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;   
+}
+.header i
+{
+    position: relative; 
+    color: red;
+}
+.header h1
+{
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    font-size: 15px;
 }
 
 .container {
     display: flex;
-    flex: 1;  /* Nội dung chính chiếm hết không gian còn lại */
+    flex: 1;
     justify-content: space-between;
-    padding: 20px;
+    
 }
 
 .left, .right {
-    width: 45%;  /* Cả 2 cột có chiều rộng là 45% */
+    width: 50%;  /* Cả 2 cột có chiều rộng là 45% */
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
