@@ -29,7 +29,7 @@ body
 {
     background-color: #ffd400;
     width: 100%;
-    position: sticky;
+    
     
 }
 .header_worldmobile .header__top>div
@@ -62,6 +62,7 @@ body
 {
     position: relative;
 }
+
 .item_search
 {
     
@@ -468,23 +469,6 @@ html, body {
     font-family:Arial, Helvetica, sans-serif;
     
 }
-@media (max-width: 1440px) {
-    body {
-        font-size: 14px;
-    }
-    .main_container img[src="assets/images/label-left.png"],
-    .main_container img[src="assets/images/label-right.png"] {
-        display: none; 
-}
-    .header__left img[src="assets/images/header-left.png"],
-    .header__right img[src="assets/images/header-right.png"]
-    {
-        display: none;  
-    }
-
-}
-
-
 .slider
 {
     width: 100%;    
@@ -521,4 +505,207 @@ margin: 15px 0px
     font-size: 20px;
     padding: 2px 2px;
     border-radius: 10px;
+}
+.banner>div,.voucher>div,.more>div,.people-search>div
+{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.banner>div>img,.voucher>div>img,.more>div>img,.people-search>div>img
+{
+    
+   height: 40px;
+   width: 40px;
+   
+}
+.banner>div>span,.voucher>div>span,.more>div>span,.people-search>div>span
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+.banner .img-banner
+{
+    width: 100%;
+    border-radius: 8px;
+}
+.banner-voucher 
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.banner-voucher div
+{
+    width: 25%;
+    padding: 12px 0;
+}
+.banner-voucher div img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.more
+{
+    background-color: white;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+
+.more .box-btn .btn-item-new
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-right: 5px;
+}
+.more .box-btn .btn-item-ask
+{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.more-banner
+{
+    display: flex;
+    justify-content: space-between;
+}
+.more-banner div
+{
+  
+    padding: 10px 5px;
+}
+.more-banner>div>p
+{
+    font-size: 12px;
+    padding: 12px 0;
+}
+.more-banner>div>img
+{
+    width: 280px;
+    height: 162px;
+    border-radius: 8px;
+}
+.readmore
+{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.readmore .text-readmore h3
+{
+    color: #2a83e9;
+    font-size: 15px;
+} 
+.footer_worldmobile
+{
+margin:0 auto;
+width: 1200px;
+
+}
+.people-search
+{
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.people-section ul
+{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.people-search ul li
+{
+    padding: 2px 8px;
+    border-radius: 16px;
+    margin: 10px 8px;
+    background-color: #f2f4f7;
+    
+    
+}
+.footer-section
+{
+    max-width: 1220px;
+    display: flex;
+    margin-top: 10px;
+
+}
+.support p,.about p,.more-infor p
+{
+   padding: 10px 0;
+   
+}
+
+.footer-section .support span
+{
+    padding-right: 10px;
+    font-size: 15px;
+    
+}
+.footer-section .support p a  
+{
+    color: #2f80ed;
+    text-decoration: none;
+}
+.support,.about,.more-infor,.website
+{
+    padding:  10px 10px;
+}
+
+.website .logo-website ul
+{
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+margin: 10px 10px;
+}
+.website .logo-website ul li img
+{
+    height: 24px;
+    width: 80px;
+    padding-right: 10px;
+}
+.logo-contact div ul
+{
+    list-style-type: none;
+    display: flex;
+}
+.logo-contact ul li i
+{
+    color: rgb(168, 168, 246);
+}
+.logo-contact div ul li
+{
+    padding: 10px 0;
+    margin: 10px 10px;
+}
+.logo-contact div ul li span
+{
+    font-size: 12px;
+}
+@media (max-width: 1440px) {
+    body {
+        font-size: 14px;
+    }
+    .main_container img[src="assets/images/label-left.png"],
+    .main_container img[src="assets/images/label-right.png"] {
+        display: none; 
+}
+    .header__left img[src="assets/images/header-left.png"],
+    .header__right img[src="assets/images/header-right.png"]
+    {
+        display: none;  
+    }
+    .container {
+        width: 1200px; /* Giữ nguyên kích thước */
+    }
+    .header__top
+    {
+        width: 1200px;
+    }
 }
