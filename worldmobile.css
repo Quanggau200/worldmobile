@@ -202,6 +202,7 @@ body
 .nav-limit-sim .item-sim-sim a:hover,.nav-limit .item-sim a:hover,.nav-limit-old,.item-sim-old a:hover {
     background-color: rgb(233, 230, 230);
     color: black;
+    border-radius: 10 px;
 }
 
 .nav-limit,.nav-limit-sim,.nav-limit-old
@@ -212,7 +213,7 @@ body
     position: absolute;
     margin-top: 10px;
     right: 0;
-    display: none; 
+    display: none;  
     border: 1px solid beige;
 }
 
@@ -704,3 +705,8 @@ margin: 10px 10px;
     }
    
 }
+
+
+
+
+
